@@ -1,2 +1,5 @@
 FROM busybox:latest
-CMD echo Hello UtrechtUniversity (feb 2018) 
+MAINTAINER M.Schuckman <m.schuckman@uu.nl>
+ENV OWNER m.schuckman
+CMD echo "Hello UtrechtUniversity"
+ 
